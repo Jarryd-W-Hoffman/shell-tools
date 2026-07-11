@@ -67,7 +67,9 @@ Restart your shell. `mytool` is now available as a command.
 
 | Command | Description |
 | --- | --- |
-| `gitreset [branch]` | Hard-reset to `origin/<branch>`. Defaults to the current branch. Prints an error if not in a git repository. |
+| `gitreset [branch]` | Fetch all remotes, then hard-reset to `origin/<branch>`. Defaults to the current branch. |
+| `gitfetch` | Fetch all remotes and prune deleted branches. |
+| `gitlog [args]` | Compact colored log with graph, dates, and author. Pass extra args to filter. |
 
 ## Development
 
